@@ -1,0 +1,52 @@
+PODS:
+  - SteviaLayout (5.1.2)
+  - SwifterSwift (5.2.0):
+    - SwifterSwift/AppKit (= 5.2.0)
+    - SwifterSwift/CoreAnimation (= 5.2.0)
+    - SwifterSwift/CoreGraphics (= 5.2.0)
+    - SwifterSwift/CoreLocation (= 5.2.0)
+    - SwifterSwift/Dispatch (= 5.2.0)
+    - SwifterSwift/Foundation (= 5.2.0)
+    - SwifterSwift/MapKit (= 5.2.0)
+    - SwifterSwift/SceneKit (= 5.2.0)
+    - SwifterSwift/SpriteKit (= 5.2.0)
+    - SwifterSwift/StoreKit (= 5.2.0)
+    - SwifterSwift/SwiftStdlib (= 5.2.0)
+    - SwifterSwift/UIKit (= 5.2.0)
+  - SwifterSwift/AppKit (5.2.0)
+  - SwifterSwift/CoreAnimation (5.2.0)
+  - SwifterSwift/CoreGraphics (5.2.0)
+  - SwifterSwift/CoreLocation (5.2.0)
+  - SwifterSwift/Dispatch (5.2.0)
+  - SwifterSwift/Foundation (5.2.0)
+  - SwifterSwift/MapKit (5.2.0)
+  - SwifterSwift/SceneKit (5.2.0)
+  - SwifterSwift/SpriteKit (5.2.0)
+  - SwifterSwift/StoreKit (5.2.0)
+  - SwifterSwift/SwiftStdlib (5.2.0)
+  - SwifterSwift/UIKit (5.2.0)
+  - SwiftSoup (2.4.3)
+  - YYText (1.0.7)
+
+DEPENDENCIES:
+  - SteviaLayout
+  - SwifterSwift
+  - SwiftSoup (~> 2.4.3)
+  - YYText (~> 1.0.7)
+
+SPEC REPOS:
+  trunk:
+    - SteviaLayout
+    - SwifterSwift
+    - SwiftSoup
+    - YYText
+
+SPEC CHECKSUMS:
+  SteviaLayout: 05424e528d643657d39ce72c786e4adf13cfc5f2
+  SwifterSwift: 334181863c416882d97b7a60c05054d9e4d799e2
+  SwiftSoup: 3384f2e618cfc1b3cbc7852c16692fe8de13fb8f
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+
+PODFILE CHECKSUM: 285c15294cdd4cfee0c0cd4372ae99953cda6e41
+
+COCOAPODS: 1.11.3

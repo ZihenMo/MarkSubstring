@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  MarkSubstringTranslation
+
+  Created by 墨子痕 on 2022/8/23.
+  
+*/
+"text" = "查看<a>用户指南</a>";
+"text2" = "我已阅读并同意<a id='1'>隐私协议</a>与<a id='2'>免责声明</a>";

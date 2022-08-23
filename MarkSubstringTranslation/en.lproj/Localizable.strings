@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  MarkSubstringTranslation
+
+  Created by 墨子痕 on 2022/8/23.
+  
+*/
+"text" = "View <a>User Guide</a>";
+"text2" = "I have read and agree to the <a id='2'>Disclaimer</a> and <a id='1'>Privacy Agreement</a>";

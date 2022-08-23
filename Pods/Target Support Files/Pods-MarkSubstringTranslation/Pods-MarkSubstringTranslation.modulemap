@@ -1,0 +1,6 @@
+framework module Pods_MarkSubstringTranslation {
+  umbrella header "Pods-MarkSubstringTranslation-umbrella.h"
+
+  export *
+  module * { export * }
+}

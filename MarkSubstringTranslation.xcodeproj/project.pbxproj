@@ -1,0 +1,799 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64FA5500A979E2CD9BD30CD8 /* Pods_MarkSubstringTranslation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B465FE957091630434CA49A /* Pods_MarkSubstringTranslation.framework */; };
+		9579309D2EC2AB89756BE3F3 /* Pods_MarkSubstringTranslation_MarkSubstringTranslationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4D529882CF5827FBDFB40B4 /* Pods_MarkSubstringTranslation_MarkSubstringTranslationUITests.framework */; };
+		96D0B4B328B4A7BD00A27041 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D0B4B228B4A7BD00A27041 /* AppDelegate.swift */; };
+		96D0B4B528B4A7BD00A27041 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D0B4B428B4A7BD00A27041 /* SceneDelegate.swift */; };
+		96D0B4B728B4A7BD00A27041 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D0B4B628B4A7BD00A27041 /* ViewController.swift */; };
+		96D0B4BA28B4A7BD00A27041 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D0B4B828B4A7BD00A27041 /* Main.storyboard */; };
+		96D0B4BC28B4A7BF00A27041 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96D0B4BB28B4A7BF00A27041 /* Assets.xcassets */; };
+		96D0B4BF28B4A7BF00A27041 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D0B4BD28B4A7BF00A27041 /* LaunchScreen.storyboard */; };
+		96D0B4CA28B4A7BF00A27041 /* MarkSubstringTranslationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D0B4C928B4A7BF00A27041 /* MarkSubstringTranslationTests.swift */; };
+		96D0B4D428B4A7BF00A27041 /* MarkSubstringTranslationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D0B4D328B4A7BF00A27041 /* MarkSubstringTranslationUITests.swift */; };
+		96D0B4D628B4A7BF00A27041 /* MarkSubstringTranslationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D0B4D528B4A7BF00A27041 /* MarkSubstringTranslationUITestsLaunchTests.swift */; };
+		96D0B4E328B4A90400A27041 /* StringExtensions+MarkSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D0B4E228B4A90400A27041 /* StringExtensions+MarkSubstring.swift */; };
+		96D0B4E528B4A9CA00A27041 /* Localize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D0B4E428B4A9CA00A27041 /* Localize.swift */; };
+		96D0B4EC28B4AD9400A27041 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96D0B4EE28B4AD9400A27041 /* Localizable.strings */; };
+		9AF7BAAA1B4EAC6ABEDCDFDF /* Pods_MarkSubstringTranslationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EC23B5E0EA5FF31E431CEA3 /* Pods_MarkSubstringTranslationTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96D0B4C628B4A7BF00A27041 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96D0B4A728B4A7BD00A27041 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96D0B4AE28B4A7BD00A27041;
+			remoteInfo = MarkSubstringTranslation;
+		};
+		96D0B4D028B4A7BF00A27041 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96D0B4A728B4A7BD00A27041 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96D0B4AE28B4A7BD00A27041;
+			remoteInfo = MarkSubstringTranslation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B465FE957091630434CA49A /* Pods_MarkSubstringTranslation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarkSubstringTranslation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EC23B5E0EA5FF31E431CEA3 /* Pods_MarkSubstringTranslationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarkSubstringTranslationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		833EE8F9880DDC5D0113ABE5 /* Pods-MarkSubstringTranslationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarkSubstringTranslationTests.debug.xcconfig"; path = "Target Support Files/Pods-MarkSubstringTranslationTests/Pods-MarkSubstringTranslationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		96D0B4AF28B4A7BD00A27041 /* MarkSubstringTranslation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarkSubstringTranslation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96D0B4B228B4A7BD00A27041 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96D0B4B428B4A7BD00A27041 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		96D0B4B628B4A7BD00A27041 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96D0B4B928B4A7BD00A27041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96D0B4BB28B4A7BF00A27041 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96D0B4BE28B4A7BF00A27041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96D0B4C028B4A7BF00A27041 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96D0B4C528B4A7BF00A27041 /* MarkSubstringTranslationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarkSubstringTranslationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96D0B4C928B4A7BF00A27041 /* MarkSubstringTranslationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkSubstringTranslationTests.swift; sourceTree = "<group>"; };
+		96D0B4CF28B4A7BF00A27041 /* MarkSubstringTranslationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarkSubstringTranslationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96D0B4D328B4A7BF00A27041 /* MarkSubstringTranslationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkSubstringTranslationUITests.swift; sourceTree = "<group>"; };
+		96D0B4D528B4A7BF00A27041 /* MarkSubstringTranslationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkSubstringTranslationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		96D0B4E228B4A90400A27041 /* StringExtensions+MarkSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StringExtensions+MarkSubstring.swift"; sourceTree = "<group>"; };
+		96D0B4E428B4A9CA00A27041 /* Localize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localize.swift; sourceTree = "<group>"; };
+		96D0B4E628B4AD7500A27041 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		96D0B4E728B4AD7500A27041 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		96D0B4E828B4AD7900A27041 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		96D0B4E928B4AD7900A27041 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		96D0B4ED28B4AD9400A27041 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		96D0B4EF28B4AD9600A27041 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		96D0B4F028B4AD9900A27041 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		98ADD1802FCCEEEC680206F9 /* Pods-MarkSubstringTranslationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarkSubstringTranslationTests.release.xcconfig"; path = "Target Support Files/Pods-MarkSubstringTranslationTests/Pods-MarkSubstringTranslationTests.release.xcconfig"; sourceTree = "<group>"; };
+		B9A4D344FACE9118FACD18C8 /* Pods-MarkSubstringTranslation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarkSubstringTranslation.debug.xcconfig"; path = "Target Support Files/Pods-MarkSubstringTranslation/Pods-MarkSubstringTranslation.debug.xcconfig"; sourceTree = "<group>"; };
+		BFA772B9EFD1019A8AC8C6EA /* Pods-MarkSubstringTranslation-MarkSubstringTranslationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarkSubstringTranslation-MarkSubstringTranslationUITests.debug.xcconfig"; path = "Target Support Files/Pods-MarkSubstringTranslation-MarkSubstringTranslationUITests/Pods-MarkSubstringTranslation-MarkSubstringTranslationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C471A3EADBA6E064EEA7A9E8 /* Pods-MarkSubstringTranslation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarkSubstringTranslation.release.xcconfig"; path = "Target Support Files/Pods-MarkSubstringTranslation/Pods-MarkSubstringTranslation.release.xcconfig"; sourceTree = "<group>"; };
+		C4D529882CF5827FBDFB40B4 /* Pods_MarkSubstringTranslation_MarkSubstringTranslationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarkSubstringTranslation_MarkSubstringTranslationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F804E388943DEDC28946995C /* Pods-MarkSubstringTranslation-MarkSubstringTranslationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarkSubstringTranslation-MarkSubstringTranslationUITests.release.xcconfig"; path = "Target Support Files/Pods-MarkSubstringTranslation-MarkSubstringTranslationUITests/Pods-MarkSubstringTranslation-MarkSubstringTranslationUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96D0B4AC28B4A7BD00A27041 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64FA5500A979E2CD9BD30CD8 /* Pods_MarkSubstringTranslation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96D0B4C228B4A7BF00A27041 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF7BAAA1B4EAC6ABEDCDFDF /* Pods_MarkSubstringTranslationTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96D0B4CC28B4A7BF00A27041 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9579309D2EC2AB89756BE3F3 /* Pods_MarkSubstringTranslation_MarkSubstringTranslationUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		323464A6015119A57153C44B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B465FE957091630434CA49A /* Pods_MarkSubstringTranslation.framework */,
+				C4D529882CF5827FBDFB40B4 /* Pods_MarkSubstringTranslation_MarkSubstringTranslationUITests.framework */,
+				3EC23B5E0EA5FF31E431CEA3 /* Pods_MarkSubstringTranslationTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96D0B4A628B4A7BD00A27041 = {
+			isa = PBXGroup;
+			children = (
+				96D0B4B128B4A7BD00A27041 /* MarkSubstringTranslation */,
+				96D0B4C828B4A7BF00A27041 /* MarkSubstringTranslationTests */,
+				96D0B4D228B4A7BF00A27041 /* MarkSubstringTranslationUITests */,
+				96D0B4B028B4A7BD00A27041 /* Products */,
+				D5FBE40819477836B543F25D /* Pods */,
+				323464A6015119A57153C44B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		96D0B4B028B4A7BD00A27041 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96D0B4AF28B4A7BD00A27041 /* MarkSubstringTranslation.app */,
+				96D0B4C528B4A7BF00A27041 /* MarkSubstringTranslationTests.xctest */,
+				96D0B4CF28B4A7BF00A27041 /* MarkSubstringTranslationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96D0B4B128B4A7BD00A27041 /* MarkSubstringTranslation */ = {
+			isa = PBXGroup;
+			children = (
+				96D0B4E228B4A90400A27041 /* StringExtensions+MarkSubstring.swift */,
+				96D0B4E428B4A9CA00A27041 /* Localize.swift */,
+				96D0B4B228B4A7BD00A27041 /* AppDelegate.swift */,
+				96D0B4B428B4A7BD00A27041 /* SceneDelegate.swift */,
+				96D0B4B628B4A7BD00A27041 /* ViewController.swift */,
+				96D0B4B828B4A7BD00A27041 /* Main.storyboard */,
+				96D0B4BB28B4A7BF00A27041 /* Assets.xcassets */,
+				96D0B4BD28B4A7BF00A27041 /* LaunchScreen.storyboard */,
+				96D0B4C028B4A7BF00A27041 /* Info.plist */,
+				96D0B4EE28B4AD9400A27041 /* Localizable.strings */,
+			);
+			path = MarkSubstringTranslation;
+			sourceTree = "<group>";
+		};
+		96D0B4C828B4A7BF00A27041 /* MarkSubstringTranslationTests */ = {
+			isa = PBXGroup;
+			children = (
+				96D0B4C928B4A7BF00A27041 /* MarkSubstringTranslationTests.swift */,
+			);
+			path = MarkSubstringTranslationTests;
+			sourceTree = "<group>";
+		};
+		96D0B4D228B4A7BF00A27041 /* MarkSubstringTranslationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				96D0B4D328B4A7BF00A27041 /* MarkSubstringTranslationUITests.swift */,
+				96D0B4D528B4A7BF00A27041 /* MarkSubstringTranslationUITestsLaunchTests.swift */,
+			);
+			path = MarkSubstringTranslationUITests;
+			sourceTree = "<group>";
+		};
+		D5FBE40819477836B543F25D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9A4D344FACE9118FACD18C8 /* Pods-MarkSubstringTranslation.debug.xcconfig */,
+				C471A3EADBA6E064EEA7A9E8 /* Pods-MarkSubstringTranslation.release.xcconfig */,
+				BFA772B9EFD1019A8AC8C6EA /* Pods-MarkSubstringTranslation-MarkSubstringTranslationUITests.debug.xcconfig */,
+				F804E388943DEDC28946995C /* Pods-MarkSubstringTranslation-MarkSubstringTranslationUITests.release.xcconfig */,
+				833EE8F9880DDC5D0113ABE5 /* Pods-MarkSubstringTranslationTests.debug.xcconfig */,
+				98ADD1802FCCEEEC680206F9 /* Pods-MarkSubstringTranslationTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96D0B4AE28B4A7BD00A27041 /* MarkSubstringTranslation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96D0B4D928B4A7BF00A27041 /* Build configuration list for PBXNativeTarget "MarkSubstringTranslation" */;
+			buildPhases = (
+				59D3682C88003DA0D3F68CF3 /* [CP] Check Pods Manifest.lock */,
+				96D0B4AB28B4A7BD00A27041 /* Sources */,
+				96D0B4AC28B4A7BD00A27041 /* Frameworks */,
+				96D0B4AD28B4A7BD00A27041 /* Resources */,
+				5EA569002AF239D7D1D30579 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarkSubstringTranslation;
+			productName = MarkSubstringTranslation;
+			productReference = 96D0B4AF28B4A7BD00A27041 /* MarkSubstringTranslation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96D0B4C428B4A7BF00A27041 /* MarkSubstringTranslationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96D0B4DC28B4A7BF00A27041 /* Build configuration list for PBXNativeTarget "MarkSubstringTranslationTests" */;
+			buildPhases = (
+				80E79ED9AAF2B2C1DA58A6B9 /* [CP] Check Pods Manifest.lock */,
+				96D0B4C128B4A7BF00A27041 /* Sources */,
+				96D0B4C228B4A7BF00A27041 /* Frameworks */,
+				96D0B4C328B4A7BF00A27041 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96D0B4C728B4A7BF00A27041 /* PBXTargetDependency */,
+			);
+			name = MarkSubstringTranslationTests;
+			productName = MarkSubstringTranslationTests;
+			productReference = 96D0B4C528B4A7BF00A27041 /* MarkSubstringTranslationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96D0B4CE28B4A7BF00A27041 /* MarkSubstringTranslationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96D0B4DF28B4A7BF00A27041 /* Build configuration list for PBXNativeTarget "MarkSubstringTranslationUITests" */;
+			buildPhases = (
+				AA55BD749A0A6DAF42938098 /* [CP] Check Pods Manifest.lock */,
+				96D0B4CB28B4A7BF00A27041 /* Sources */,
+				96D0B4CC28B4A7BF00A27041 /* Frameworks */,
+				96D0B4CD28B4A7BF00A27041 /* Resources */,
+				010D04016DDE86914CB4233E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96D0B4D128B4A7BF00A27041 /* PBXTargetDependency */,
+			);
+			name = MarkSubstringTranslationUITests;
+			productName = MarkSubstringTranslationUITests;
+			productReference = 96D0B4CF28B4A7BF00A27041 /* MarkSubstringTranslationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96D0B4A728B4A7BD00A27041 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					96D0B4AE28B4A7BD00A27041 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					96D0B4C428B4A7BF00A27041 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 96D0B4AE28B4A7BD00A27041;
+					};
+					96D0B4CE28B4A7BF00A27041 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 96D0B4AE28B4A7BD00A27041;
+					};
+				};
+			};
+			buildConfigurationList = 96D0B4AA28B4A7BD00A27041 /* Build configuration list for PBXProject "MarkSubstringTranslation" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = 96D0B4A628B4A7BD00A27041;
+			productRefGroup = 96D0B4B028B4A7BD00A27041 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96D0B4AE28B4A7BD00A27041 /* MarkSubstringTranslation */,
+				96D0B4C428B4A7BF00A27041 /* MarkSubstringTranslationTests */,
+				96D0B4CE28B4A7BF00A27041 /* MarkSubstringTranslationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96D0B4AD28B4A7BD00A27041 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96D0B4BF28B4A7BF00A27041 /* LaunchScreen.storyboard in Resources */,
+				96D0B4EC28B4AD9400A27041 /* Localizable.strings in Resources */,
+				96D0B4BC28B4A7BF00A27041 /* Assets.xcassets in Resources */,
+				96D0B4BA28B4A7BD00A27041 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96D0B4C328B4A7BF00A27041 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96D0B4CD28B4A7BF00A27041 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		010D04016DDE86914CB4233E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MarkSubstringTranslation-MarkSubstringTranslationUITests/Pods-MarkSubstringTranslation-MarkSubstringTranslationUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MarkSubstringTranslation-MarkSubstringTranslationUITests/Pods-MarkSubstringTranslation-MarkSubstringTranslationUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MarkSubstringTranslation-MarkSubstringTranslationUITests/Pods-MarkSubstringTranslation-MarkSubstringTranslationUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59D3682C88003DA0D3F68CF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarkSubstringTranslation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EA569002AF239D7D1D30579 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MarkSubstringTranslation/Pods-MarkSubstringTranslation-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MarkSubstringTranslation/Pods-MarkSubstringTranslation-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MarkSubstringTranslation/Pods-MarkSubstringTranslation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80E79ED9AAF2B2C1DA58A6B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarkSubstringTranslationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA55BD749A0A6DAF42938098 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarkSubstringTranslation-MarkSubstringTranslationUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96D0B4AB28B4A7BD00A27041 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96D0B4B728B4A7BD00A27041 /* ViewController.swift in Sources */,
+				96D0B4E328B4A90400A27041 /* StringExtensions+MarkSubstring.swift in Sources */,
+				96D0B4E528B4A9CA00A27041 /* Localize.swift in Sources */,
+				96D0B4B328B4A7BD00A27041 /* AppDelegate.swift in Sources */,
+				96D0B4B528B4A7BD00A27041 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96D0B4C128B4A7BF00A27041 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96D0B4CA28B4A7BF00A27041 /* MarkSubstringTranslationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96D0B4CB28B4A7BF00A27041 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96D0B4D428B4A7BF00A27041 /* MarkSubstringTranslationUITests.swift in Sources */,
+				96D0B4D628B4A7BF00A27041 /* MarkSubstringTranslationUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96D0B4C728B4A7BF00A27041 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96D0B4AE28B4A7BD00A27041 /* MarkSubstringTranslation */;
+			targetProxy = 96D0B4C628B4A7BF00A27041 /* PBXContainerItemProxy */;
+		};
+		96D0B4D128B4A7BF00A27041 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96D0B4AE28B4A7BD00A27041 /* MarkSubstringTranslation */;
+			targetProxy = 96D0B4D028B4A7BF00A27041 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96D0B4B828B4A7BD00A27041 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96D0B4B928B4A7BD00A27041 /* Base */,
+				96D0B4E628B4AD7500A27041 /* zh-Hans */,
+				96D0B4E828B4AD7900A27041 /* zh-Hant */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96D0B4BD28B4A7BF00A27041 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96D0B4BE28B4A7BF00A27041 /* Base */,
+				96D0B4E728B4AD7500A27041 /* zh-Hans */,
+				96D0B4E928B4AD7900A27041 /* zh-Hant */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		96D0B4EE28B4AD9400A27041 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96D0B4ED28B4AD9400A27041 /* en */,
+				96D0B4EF28B4AD9600A27041 /* zh-Hans */,
+				96D0B4F028B4AD9900A27041 /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96D0B4D728B4A7BF00A27041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96D0B4D828B4A7BF00A27041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96D0B4DA28B4A7BF00A27041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9A4D344FACE9118FACD18C8 /* Pods-MarkSubstringTranslation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9C9K388S8H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarkSubstringTranslation/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mzh.MarkSubstringTranslation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		96D0B4DB28B4A7BF00A27041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C471A3EADBA6E064EEA7A9E8 /* Pods-MarkSubstringTranslation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9C9K388S8H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarkSubstringTranslation/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mzh.MarkSubstringTranslation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		96D0B4DD28B4A7BF00A27041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 833EE8F9880DDC5D0113ABE5 /* Pods-MarkSubstringTranslationTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9C9K388S8H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mzh.MarkSubstringTranslationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarkSubstringTranslation.app/MarkSubstringTranslation";
+			};
+			name = Debug;
+		};
+		96D0B4DE28B4A7BF00A27041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98ADD1802FCCEEEC680206F9 /* Pods-MarkSubstringTranslationTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9C9K388S8H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mzh.MarkSubstringTranslationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarkSubstringTranslation.app/MarkSubstringTranslation";
+			};
+			name = Release;
+		};
+		96D0B4E028B4A7BF00A27041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFA772B9EFD1019A8AC8C6EA /* Pods-MarkSubstringTranslation-MarkSubstringTranslationUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9C9K388S8H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mzh.MarkSubstringTranslationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarkSubstringTranslation;
+			};
+			name = Debug;
+		};
+		96D0B4E128B4A7BF00A27041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F804E388943DEDC28946995C /* Pods-MarkSubstringTranslation-MarkSubstringTranslationUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9C9K388S8H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mzh.MarkSubstringTranslationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarkSubstringTranslation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96D0B4AA28B4A7BD00A27041 /* Build configuration list for PBXProject "MarkSubstringTranslation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96D0B4D728B4A7BF00A27041 /* Debug */,
+				96D0B4D828B4A7BF00A27041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96D0B4D928B4A7BF00A27041 /* Build configuration list for PBXNativeTarget "MarkSubstringTranslation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96D0B4DA28B4A7BF00A27041 /* Debug */,
+				96D0B4DB28B4A7BF00A27041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96D0B4DC28B4A7BF00A27041 /* Build configuration list for PBXNativeTarget "MarkSubstringTranslationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96D0B4DD28B4A7BF00A27041 /* Debug */,
+				96D0B4DE28B4A7BF00A27041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96D0B4DF28B4A7BF00A27041 /* Build configuration list for PBXNativeTarget "MarkSubstringTranslationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96D0B4E028B4A7BF00A27041 /* Debug */,
+				96D0B4E128B4A7BF00A27041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96D0B4A728B4A7BD00A27041 /* Project object */;
+}

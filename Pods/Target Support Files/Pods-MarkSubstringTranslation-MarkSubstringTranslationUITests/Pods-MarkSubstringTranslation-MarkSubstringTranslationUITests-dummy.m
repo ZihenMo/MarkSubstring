@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_MarkSubstringTranslation_MarkSubstringTranslationUITests : NSObject
+@end
+@implementation PodsDummy_Pods_MarkSubstringTranslation_MarkSubstringTranslationUITests
+@end
