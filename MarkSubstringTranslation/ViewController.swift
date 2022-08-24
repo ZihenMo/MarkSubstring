@@ -37,21 +37,17 @@ class ViewController: UIViewController {
     
     func updateText() {
         func updateText1() {
-            let html = "text".localize()
-            var ranges: [NSRange] = []
-            let attributedString = html.htmlToAttributedString(get: &ranges)
-            attributedString?.yy_color = .darkGray
-            attributedString?.yy_font = .systemFont(ofSize: 18)
-            if let range = ranges.first {
-                attributedString?.yy_setTextHighlight(range, color: .red, backgroundColor: nil) { [weak self] _, _, _, _ in
-                    self?.showAlert(title: "用户指南", message: "详细内容")
-                }
-                attributedString?.yy_setFont(.systemFont(ofSize: 18, weight: .bold), range: range)
+            guard let (attributedString, range) = "text".localize().singleMarkHTMLToAttributed() else { return }
+            attributedString.yy_color = .darkGray
+            attributedString.yy_font = .systemFont(ofSize: 18)
+            attributedString.yy_setTextHighlight(range, color: .red, backgroundColor: nil) { [weak self] _, _, _, _ in
+                self?.showAlert(title: "用户指南", message: "详细内容")
             }
+            attributedString.yy_setFont(.systemFont(ofSize: 18, weight: .bold), range: range)
             singleLabel.attributedText = attributedString
         }
         func updateText2() {
-            let html = "text2".localize()
+            guard let (attributedString, ranges) = "text2".localize().htmlToAttributedString() else { return }
             let tapAcltion1: YYTextAction = { [weak self] _, _, _, _ in
                 self?.showAlert(title: "隐私协议", message: "详细内容")
             }
@@ -59,10 +55,8 @@ class ViewController: UIViewController {
                 self?.showAlert(title: "免责声明协议", message: "详细内容")
             }
             let actions = [tapAcltion1, tapAcltion2]
-            var ranges: [NSRange] = []
-            let attributedString = html.htmlToAttributedString(get: &ranges)
             ranges.enumerated().forEach { (idx, range) in
-                attributedString?.yy_setTextHighlight(range, color: .red, backgroundColor: nil, tapAction: actions[idx])
+                attributedString.yy_setTextHighlight(range, color: .red, backgroundColor: nil, tapAction: actions[idx])
             }
             multableLabel.attributedText = attributedString
         }

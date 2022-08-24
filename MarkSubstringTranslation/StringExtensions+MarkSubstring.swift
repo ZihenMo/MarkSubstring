@@ -13,15 +13,16 @@ extension String {
     
     /// 获取富文本与高亮区域，由外部进行设置样式
     ///     约定以<a>highlightText</a>为标识
-    /// - Parameter highlightRanges: 读写参数，高亮区域
-    /// - Returns: 富文本
-    func htmlToAttributedString(`get` highlightRanges: inout [NSRange]) -> NSMutableAttributedString? {
+    func htmlToAttributedString() -> (NSMutableAttributedString, [NSRange])? {
         /// 1. 整体转换成attributedString
         func convertToAttributedString() -> NSMutableAttributedString? {
-            guard let data = data(using: .unicode) else { return nil }
+            guard let data = replacingOccurrences(of: "\n", with: "<br/>").data(using: .utf8) else { return nil }
             let attributedString = try? NSMutableAttributedString(
                 data: data,
-                options: [.documentType: NSAttributedString.DocumentType.html],
+                options: [
+                    .documentType: NSAttributedString.DocumentType.html,
+                    .characterEncoding: String.Encoding.utf8.rawValue
+                ],
                 documentAttributes: nil
             )
             return attributedString
@@ -44,7 +45,15 @@ extension String {
         }
         
         guard let attributedString = convertToAttributedString() else { return nil }
-        highlightRanges = parseHighLightRanges(in: attributedString.string)
-        return attributedString
+        let highlightRanges = parseHighLightRanges(in: attributedString.string)
+        return (attributedString, highlightRanges)
+    }
+    
+    /// 单个高亮区便捷方法
+    func singleMarkHTMLToAttributed() -> (NSMutableAttributedString, NSRange)? {
+        guard let (attr, ranges) = htmlToAttributedString(),
+              let range = ranges.first
+        else { return nil }
+        return (attr, range)
     }
 }
